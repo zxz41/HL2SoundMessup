@@ -1316,9 +1316,9 @@
 
 	"rndwave"
 	{
-			"wave"	"^weapons/explode3.wav"
-			"wave"	"^weapons/explode4.wav"
-			"wave"	"^weapons/explode5.wav"
+			"wave"	"hl1/weapons/explode3.wav"
+			"wave"	"hl1/weapons/explode4.wav"
+			"wave"	"hl1/weapons/explode5.wav"
 	}
 
 }
@@ -1328,7 +1328,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_140dB"
-	"pitch"	"80,130"
+	"pitch"	"100"
 
 	"rndwave"
 	{
