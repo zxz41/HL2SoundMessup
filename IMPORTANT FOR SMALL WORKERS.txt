@@ -1,0 +1,8 @@
+Whenever you wish to add a new sound, please concider adding it thru soundscript rather than replacing sounds
+
+e.g. "sound\custom\plats\elevbell1.wav" and replacing the corresponding line of soundscript code to it
+You should only replace the file if you want to be 100% sure it replaces all instances of that sound.
+
+Please don't use enormous huge files.
+Don't replace "important" dialog for now.
+
