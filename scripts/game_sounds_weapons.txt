@@ -1323,6 +1323,15 @@
 			"wave"	"hl1/weapons/explode3.wav"
 			"wave"	"hl1/weapons/explode4.wav"
 			"wave"	"hl1/weapons/explode5.wav"
+			"wave"	"hl1/weapons/explode3prunejuice.wav"
+			"wave"	"hl1/weapons/explode4prunejuice.wav"
+			"wave"	"hl1/weapons/explode5prunejuice.wav"
+			"wave"	"hl1/weapons/explode3prunejuice.wav"
+			"wave"	"hl1/weapons/explode4prunejuice.wav"
+			"wave"	"hl1/weapons/explode5prunejuice.wav"
+			"wave"	"^cstrike/weapons/hegrenade/explode3.wav"
+			"wave"	"^cstrike/weapons/hegrenade/explode4.wav"
+			"wave"	"^cstrike/weapons/hegrenade/explode5.wav"
 	}
 
 }
