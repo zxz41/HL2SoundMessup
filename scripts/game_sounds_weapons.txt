@@ -68,11 +68,11 @@
 
 	"rndwave"
 	{
-		"wave"	"weapons/fx/rics/ric1.wav"
-		"wave"	"weapons/fx/rics/ric2.wav"
-		"wave"	"weapons/fx/rics/ric3.wav"
-		"wave"	"weapons/fx/rics/ric4.wav"
-		"wave"	"weapons/fx/rics/ric5.wav"
+		"wave"	"custom/weapons/fx/rics/ric1.wav"
+		"wave"	"custom/weapons/fx/rics/ric2.wav"
+		"wave"	"custom/weapons/fx/rics/ric3.wav"
+		"wave"	"custom/weapons/fx/rics/ric4.wav"
+		"wave"	"custom/weapons/fx/rics/ric5.wav"
 	}
 }
 
@@ -275,11 +275,15 @@
 "Weapon_Crowbar.Single"
 {
 	"channel"		"CHAN_WEAPON"
-	"volume"		"0.55"
+	"volume"		"1"
 	"soundlevel"	"SNDLVL_105dB"
-	"pitch"			"95,100"
+	"pitch"			"50,200"
 
-	"wave"			"weapons/iceaxe/iceaxe_swing1.wav"
+	"rndwave"
+	{
+		"wave"	"custom/weapons/quack1.wav"
+		"wave"	"custom/weapons/quack2.wav"
+	}
 }
 
 "Weapon_Crowbar.Melee_Hit"
