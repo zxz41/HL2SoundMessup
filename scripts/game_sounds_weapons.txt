@@ -722,7 +722,7 @@
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"			"98,102"
 
-	"wave"		"weapons/pistol/pistol_fire2.wav"
+	"wave"		"custom/weapons/pistol/pistol_prune1.wav"
 }
 
 "Weapon_Pistol.NPC_Single"

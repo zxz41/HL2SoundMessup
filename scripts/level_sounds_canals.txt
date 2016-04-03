@@ -352,7 +352,7 @@
 
 	"soundlevel"	"SNDLVL_100dB"
 
-	"wave"			"ambient/machines/train_freight_loop1.wav"
+	"wave"			"custom/ambient/machines/thomas_pitchfix.wav"
 }
 
 "razortrain_wheels"
