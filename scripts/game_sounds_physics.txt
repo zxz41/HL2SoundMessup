@@ -2901,24 +2901,16 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"volume"		"1.0"
-	"pitch"			"PITCH_NORM"
-	"rndwave"
-	{
-		"wave"		"player/footsteps/wood1.wav"
-		"wave"		"player/footsteps/wood3.wav"
-	}
+	"pitch"			"90"
+	"wave"			"custom/player/footsteps/fuk.wav"
 }
 
 "Wood.StepRight"
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"volume"		"1.0"
-	"pitch"			"PITCH_NORM"
-	"rndwave"
-	{
-		"wave"		"player/footsteps/wood2.wav"
-		"wave"		"player/footsteps/wood4.wav"
-	}
+	"pitch"			"100"
+	"wave"			"custom/player/footsteps/fuk.wav"
 }
 
 "Wood.BulletImpact"

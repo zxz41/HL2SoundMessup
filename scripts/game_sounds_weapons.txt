@@ -1516,7 +1516,8 @@
 	"channel"		"CHAN_WEAPON"
 	"volume"		"0.95"
 	"soundlevel"  	"SNDLVL_70dB"
-	"wave"		"weapons/grenade/tick1.wav"
+	"pitch"			"80,120"
+	"wave"		"custom/fullmetaljacket/dicks.wav"
 }
 
 
