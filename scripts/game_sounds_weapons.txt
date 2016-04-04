@@ -525,7 +525,11 @@
 	"volume"		"0.22"
 	"soundlevel"	"SNDLVL_105dB"
 
-	"wave"			"weapons/physcannon/physcannon_pickup.wav"
+	"rndwave"
+	{
+		"wave"		"custom/weapons/physcannon/physcannon_pickup1.wav"
+		"wave"		"custom/weapons/physcannon/physcannon_pickup2.wav"
+	}
 }
 
 "Weapon_MegaPhysCannon.Pickup"
@@ -578,10 +582,10 @@
 "Weapon_PhysCannon.HoldSound"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.4"
+	"volume"		"1"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"weapons/physcannon/hold_loop.wav"
+	"wave"			"custom/music/ymca_loop_pitch130.wav"
 }
 
 "Weapon_MegaPhysCannon.HoldSound"
@@ -816,13 +820,9 @@
 	"channel"		"CHAN_ITEM"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"95,100"
 
-	"rndwave"
-	{
-		"wave"			"weapons/shotgun/shotgun_reload1.wav"
-		"wave"			"weapons/shotgun/shotgun_reload2.wav"
-		"wave"			"weapons/shotgun/shotgun_reload3.wav"
-	}
+	"wave"			"cstrike/weapons/xm1014/xm1014_insertshell.wav"
 }
 
 "Weapon_Shotgun.Special1"
@@ -853,9 +853,9 @@
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"soundlevel"	"SNDLVL_GUNFIRE"
-	"pitch"			"90,95"
+	"pitch"			"100"
 
-	"wave"			"weapons/shotgun/shotgun_dbl_fire7.wav"
+	"wave"			"cstrike/weapons/xm1014/xm1014-1.wav"
 }
 
 "Weapon_Shotgun.NPC_Reload"

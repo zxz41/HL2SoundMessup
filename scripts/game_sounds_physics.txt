@@ -1218,12 +1218,12 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"	"physics/body/body_medium_impact_hard1.wav"
-		"wave"	"physics/body/body_medium_impact_hard2.wav"
-		"wave"	"physics/body/body_medium_impact_hard3.wav"
-		"wave"	"physics/body/body_medium_impact_hard4.wav"
-		"wave"	"physics/body/body_medium_impact_hard5.wav"
-		"wave"	"physics/body/body_medium_impact_hard6.wav"
+		"wave"	"custom/physics/smash/hit1.wav"
+		"wave"	"custom/physics/smash/hit2.wav"
+		"wave"	"custom/physics/smash/hit3.wav"
+		"wave"	"custom/physics/smash/hit4.wav"
+		"wave"	"custom/physics/smash/hit5.wav"
+		"wave"	"custom/physics/smash/hit7.wav"
 	}
 }
 

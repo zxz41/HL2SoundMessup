@@ -150,7 +150,7 @@
 
 	"soundlevel"	"SNDLVL_120db"
 
-	"wave"			"music/HL2_ambient_1.wav"
+	"wave"			"custom/music/inkopolis_loop.wav"
 }
 
 "d1_canals.Floodgate_Move_Short"
