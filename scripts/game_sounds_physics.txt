@@ -188,8 +188,10 @@
 	"volume"		"1.0"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/dirt1.wav"
-		"wave"		"player/footsteps/dirt3.wav"
+		"wave"		"hl1/player/pl_dirt1.wav"
+		"wave"		"hl1/player/pl_dirt2.wav"
+		"wave"		"hl1/player/pl_dirt3.wav"
+		"wave"		"hl1/player/pl_dirt4.wav"
 	}
 }
 
@@ -200,8 +202,10 @@
 	"volume"		"1.0"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/dirt2.wav"
-		"wave"		"player/footsteps/dirt4.wav"
+		"wave"		"hl1/player/pl_dirt1.wav"
+		"wave"		"hl1/player/pl_dirt2.wav"
+		"wave"		"hl1/player/pl_dirt3.wav"
+		"wave"		"hl1/player/pl_dirt4.wav"
 	}
 }
 
@@ -2722,16 +2726,16 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"pitch"			"98,102"
-	"volume"			"0.2"
-	"wave"		"physics/rubber/rubber_tire_impact_soft1.wav"
+	"volume"			"0.6"
+	"wave"		"custom/fullmetaljacket/dicks.wav"
 }
 
 "Rubber.StepRight"
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"pitch"			"98,102"
-	"volume"		"0.2"
-	"wave"		"physics/rubber/rubber_tire_impact_soft1.wav"
+	"volume"		"0.6"
+	"wave"		"custom/fullmetaljacket/dicks.wav"
 }
 
 "Rubber.BulletImpact"

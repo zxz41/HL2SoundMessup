@@ -481,7 +481,7 @@
 
 	"soundlevel"	"0"
 
-	"wave"			"*#music/HL2_intro.mp3"
+	"wave"			"*#music/hl1_song09.mp3"
 }
 
 
@@ -495,7 +495,7 @@
 
 	"soundlevel"	"0"
 
-	"wave"			"*#music/HL2_intro.mp3"
+	"wave"			"*#music/hl1_song09.mp3"
 }
 
 

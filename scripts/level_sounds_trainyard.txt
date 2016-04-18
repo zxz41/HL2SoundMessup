@@ -157,7 +157,7 @@
 
 	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			"ambient/alarms/apc_alarm_loop1.wav"
+	"wave"			"custom/ambient/ilovelittlegirls.wav"
 }
 
 "d1_trainstation.apc_alarm_loop2"
@@ -3168,7 +3168,7 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"			"*#music/HL2_intro.mp3"
+	"wave"			"*#music/hl1_song09.mp3"
 }
 
 "Intro.fadebuzz"

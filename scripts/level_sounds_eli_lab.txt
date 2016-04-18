@@ -80,7 +80,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"doors/heavy_metal_stop1.wav"
+	"wave"			"custom/doors/ohsnap.wav"
 }
 
 "eli_lab.elevatordoor_move"

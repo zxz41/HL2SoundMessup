@@ -831,7 +831,7 @@
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"		"weapons/shotgun/shotgun_cock.wav"
+	"wave"		"custom/weapons/shotgun/scock1_hd_prunejuice.wav"
 }
 
 "Weapon_Shotgun.Single"

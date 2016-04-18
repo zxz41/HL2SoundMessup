@@ -175,6 +175,7 @@
 		"wave"		"physics/body/body_medium_break3.wav"
 		"wave"		"physics/body/body_medium_break4.wav"
 		"wave"		"hl1/player/pl_fallpain3.wav"
+		"wave"		"custom/player/pl_fallpain3_ssh.wav"
 		"wave"		"tf2/player/pl_fallpain.wav"
 	}
 }
