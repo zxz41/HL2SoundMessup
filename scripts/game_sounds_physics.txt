@@ -2852,27 +2852,17 @@
 "Grenade.ImpactHard"
 {
 	"soundlevel"		"SNDLVL_75dB"
-	"volume"		"0.6"
-	"pitch"		"98,100"
-	"rndwave"
-	{
-		"wave"	"physics/metal/metal_grenade_impact_hard1.wav"
-		"wave"	"physics/metal/metal_grenade_impact_hard2.wav"
-		"wave"	"physics/metal/metal_grenade_impact_hard3.wav"
-	}
+	"volume"		"1"
+	"pitch"		"100"
+	"wave"	"quake/weapons/bounce.wav"
 }
 
 "Grenade.ImpactSoft"
 {
 	"soundlevel"		"SNDLVL_75dB"
-	"volume"		"0.6"
-	"pitch"		"98,100"
-	"rndwave"
-	{
-		"wave"	"physics/metal/metal_grenade_impact_soft1.wav"
-		"wave"	"physics/metal/metal_grenade_impact_soft2.wav"
-		"wave"	"physics/metal/metal_grenade_impact_soft3.wav"
-	}
+	"volume"		"1"
+	"pitch"		"100"
+	"wave"	"quake/weapons/bounce.wav"
 }
 
 "Grenade.ScrapeRough"

@@ -30,9 +30,10 @@
 
 	"rndwave"
 	{
-		"wave"	"npc/zombie/foot1.wav"
-		"wave"	"npc/zombie/foot2.wav"
-		"wave"	"npc/zombie/foot3.wav"
+		"wave"		"custom/fullmetaljacket/dicks.wav"
+		//"wave"	"npc/zombie/foot1.wav"
+		//"wave"	"npc/zombie/foot2.wav"
+		//"wave"	"npc/zombie/foot3.wav"
 	}
 }
 
@@ -46,9 +47,10 @@
 
 	"rndwave"
 	{
-		"wave"	"npc/zombie/foot1.wav"
-		"wave"	"npc/zombie/foot2.wav"
-		"wave"	"npc/zombie/foot3.wav"
+		"wave"		"custom/fullmetaljacket/dicks.wav"
+		//"wave"	"npc/zombie/foot1.wav"
+		//"wave"	"npc/zombie/foot2.wav"
+		//"wave"	"npc/zombie/foot3.wav"
 	}
 }
 
@@ -125,12 +127,12 @@
 
 	"rndwave"
 	{
-		"wave"	"npc/zombie/zombie_pain1.wav"
-		"wave"	"npc/zombie/zombie_pain2.wav"
-		"wave"	"npc/zombie/zombie_pain3.wav"
-		"wave"	"npc/zombie/zombie_pain4.wav"
-		"wave"	"npc/zombie/zombie_pain5.wav"
-		"wave"	"npc/zombie/zombie_pain6.wav"
+		"wave"	"custom/npc/zombie/zombie_pain1.wav"
+		"wave"	"custom/npc/zombie/zombie_pain2.wav"
+		"wave"	"custom/npc/zombie/zombie_pain3.wav"
+		//"wave"	"npc/zombie/zombie_pain4.wav"
+		//"wave"	"npc/zombie/zombie_pain5.wav"
+		//"wave"	"npc/zombie/zombie_pain6.wav"
 	}
 }
 
@@ -144,9 +146,9 @@
 
 	"rndwave"
 	{
-		"wave"	"npc/zombie/zombie_alert1.wav"
-		"wave"	"npc/zombie/zombie_alert2.wav"
-		"wave"	"npc/zombie/zombie_alert3.wav"
+		"wave"	"custom/npc/zombie/zombie_alert1.wav"
+		"wave"	"custom/npc/zombie/zombie_alert2.wav"
+		//"wave"	"npc/zombie/zombie_alert3.wav"
 	}
 }
 

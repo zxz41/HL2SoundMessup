@@ -698,7 +698,7 @@
 	"soundlevel"	"SNDLVL_NORM"
 
 
-	"wave"		"weapons/pistol/pistol_reload1.wav"
+	"wave"		"custom/weapons/pistol/pistol_reload_007.wav"
 }
 
 "Weapon_Pistol.NPC_Reload"
@@ -1320,15 +1320,17 @@
 
 	"rndwave"
 	{
+			"wave"	"quake/weapons/r_exp3.wav"
+			"wave"	"quake/weapons/r_exp3prunejuice.wav"
 			"wave"	"hl1/weapons/explode3.wav"
 			"wave"	"hl1/weapons/explode4.wav"
 			"wave"	"hl1/weapons/explode5.wav"
 			"wave"	"hl1/weapons/explode3prunejuice.wav"
 			"wave"	"hl1/weapons/explode4prunejuice.wav"
 			"wave"	"hl1/weapons/explode5prunejuice.wav"
-			"wave"	"hl1/weapons/explode3prunejuice.wav"
-			"wave"	"hl1/weapons/explode4prunejuice.wav"
-			"wave"	"hl1/weapons/explode5prunejuice.wav"
+			"wave"	"^dod/weapons/explode3.wav"
+			"wave"	"^dod/weapons/explode4.wav"
+			"wave"	"^dod/weapons/explode5.wav"
 			"wave"	"^cstrike/weapons/hegrenade/explode3.wav"
 			"wave"	"^cstrike/weapons/hegrenade/explode4.wav"
 			"wave"	"^cstrike/weapons/hegrenade/explode5.wav"

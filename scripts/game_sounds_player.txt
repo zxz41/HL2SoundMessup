@@ -23,7 +23,7 @@
 	"soundlevel"    "SNDLVL_75dB"
 	"pitch"	"PITCH_NORM"
 
-	"wave" "items/flashlight1.wav"
+	"wave" "custom/items/ohsnap.wav"
 }
 
 "HL2Player.FlashLightOff"
@@ -33,7 +33,7 @@
 	"soundlevel"  "SNDLVL_75dB"
 	"pitch"	"PITCH_NORM"
 
-	"wave" "items/flashlight1.wav"
+	"wave" "custom/player/footsteps/fuk.wav"
 }
 
 "HL2Player.PickupWeapon"
@@ -142,7 +142,7 @@
 	"soundlevel"  "SNDLVL_75dB"
 	"pitch"		"90,110"
 
-	"wave"	"player/pl_drown1.wav"
+	"wave"	"quake/player/drown1.wav"
 }
 
 "Player.Swim"
@@ -177,6 +177,7 @@
 		"wave"		"hl1/player/pl_fallpain3.wav"
 		"wave"		"custom/player/pl_fallpain3_ssh.wav"
 		"wave"		"tf2/player/pl_fallpain.wav"
+		"wave"		"quake/player/land2.wav"
 	}
 }
 
@@ -184,12 +185,13 @@
 {
 	"channel"	"CHAN_ITEM"
 	"volume"	"0.75"
-	"pitch"		"90,110"
+	"pitch"		"100"
 	"soundlevel"	"SNDLVL_NORM"
 
 	"rndwave"
 	{
-		"wave"		"physics/body/body_medium_break2.wav"
+		"wave"		"custom/player/flesh_bloody_break_quake.wav"
+		"wave"		"custom/common/bodysplat.wav"
 	}
 }
 
@@ -205,6 +207,8 @@
 		"wave"	"player/pl_drown1.wav"
 		"wave"	"player/pl_drown2.wav"
 		"wave"	"player/pl_drown3.wav"
+		"wave"	"quake/player/drown1.wav"
+		"wave"	"quake/player/drown2.wav"
 	}
 }
 

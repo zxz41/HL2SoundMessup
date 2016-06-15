@@ -67,7 +67,7 @@
 
 	"soundlevel"	"SNDLVL_NONE"
 
-	"wave"			"*#music/HL2_song7.mp3"
+	"wave"			"*#music/d_e1m6.mp3"
 }
 
 "d1_town.Music_Goodbye_Grigori"
@@ -183,7 +183,7 @@
 
 	"soundlevel"	"SNDLVL_80dB"
 
-	"wave"			"ambient/machines/machine3.wav"
+	"wave"			"custom/music/hotelmario_credits.wav"
 }
 
 "d1_town.CarStraining"
