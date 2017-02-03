@@ -122,12 +122,12 @@
 "song6"				// 1db
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.600000"
+	"volume"		"0.800000"
 	"pitch"			"100"
 
 	"soundlevel"	"0"
 
-	"wave"			"*#music/HL2_song6.mp3"
+	"wave"			"*#music/ROTT_goingup_fastway_mix.mp3"
 }
 
 

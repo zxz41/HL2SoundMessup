@@ -460,9 +460,9 @@
 
 	"rndwave"
 	{
-		"wave"		"weapons/physcannon/superphys_launch1.wav"
-		"wave"		"weapons/physcannon/superphys_launch2.wav"
-		"wave"		"weapons/physcannon/superphys_launch4.wav"
+		"wave"		"custom/weapons/physcannon/superphys_launch1_megafagget.wav"
+		"wave"		"custom/weapons/physcannon/superphys_launch2_megafagget.wav"
+		"wave"		"custom/weapons/physcannon/superphys_launch4_megafagget.wav"
 	}
 }
 
@@ -475,10 +475,10 @@
 
 	"rndwave"
 	{
-		"wave"		"weapons/physcannon/superphys_launch1.wav"
-		"wave"		"weapons/physcannon/superphys_launch2.wav"
-		"wave"		"weapons/physcannon/superphys_launch3.wav"
-		"wave"		"weapons/physcannon/superphys_launch4.wav"
+		"wave"		"custom/weapons/physcannon/superphys_launch1_megafagget.wav"
+		"wave"		"custom/weapons/physcannon/superphys_launch2_megafagget.wav"
+		"wave"		"custom/weapons/physcannon/superphys_launch3_megafagget.wav"
+		"wave"		"custom/weapons/physcannon/superphys_launch4_megafagget.wav"
 	}
 }
 

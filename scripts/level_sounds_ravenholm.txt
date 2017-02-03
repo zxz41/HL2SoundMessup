@@ -210,7 +210,7 @@
 
 	"soundlevel"	"SNDLVL_80dB"
 
-	"wave"			"ambient/machines/catapult_throw.wav"
+	"wave"			"custom/ambient/machines/catapult_throw_hitmebb.wav"
 }
 
 "d1_town.CarHit"
@@ -223,8 +223,10 @@
 
 	"rndwave"
 	{
-		"wave"	"ambient/materials/cartrap_explode_impact1.wav"
-		"wave"	"ambient/materials/cartrap_explode_impact2.wav"
+		"wave"	"custom/ambient/water/drip1_loud.wav"
+		"wave"	"custom/ambient/water/drip2_loud.wav"
+		"wave"	"custom/ambient/water/drip3_loud.wav"
+		"wave"	"custom/ambient/water/drip4_loud.wav"
 	}
 }
 
