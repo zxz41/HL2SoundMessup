@@ -3534,7 +3534,7 @@
 
 	"soundlevel"	"SNDLVL_70dB"
 
-	"wave"			"ambient/machines/combine_shield_loop3.wav"
+	"wave"			")custom/ambient/machines/craxon_beat1.wav"
 }
 
 "d3_citadel.shield_touch_loop"

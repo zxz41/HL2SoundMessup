@@ -120,7 +120,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"buttons/button3.wav"
+	"wave"			"custom/buttons/button3_dicks.wav"
 }
 
 "NPC_Alyx.PushButton2"
@@ -159,12 +159,12 @@
 "NPC_Alyx.Vend_Button"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.500000"
+	"volume"		"0.800000"
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"buttons/lightswitch2.wav"
+	"wave"			"tf2/physics/body/body_medium_impact_soft4.wav"
 }
 
 "NPC_Alyx.Vend_Hit"
@@ -177,22 +177,22 @@
 
 	"rndwave"
 	{
-		"wave"	"physics/metal/metal_barrel_impact_soft1.wav"
-		"wave"	"physics/metal/metal_barrel_impact_soft2.wav"
-		"wave"	"physics/metal/metal_barrel_impact_soft3.wav"
-		"wave"	"physics/metal/metal_barrel_impact_soft4.wav"
+		"wave"	"tf2/physics/body/body_medium_impact_hard5.wav"
+		"wave"	"tf2/physics/body/body_medium_impact_hard6.wav"
 	}
 }
 
 "NPC_Alyx.JumpDown_Start"
 {
-	"channel"		"CHAN_STATIC"
-	"volume"		"0.370000"
+	"soundlevel"		"SNDLVL_75dB"
 	"pitch"			"PITCH_NORM"
-
-	"soundlevel"	"SNDLVL_NORM"
-
-	"wave"			"npc/footsteps/softshoe_generic6.wav"
+	"volume"		"0.7"
+	"rndwave"
+	{
+		"wave"		"physics/metal/metal_solid_strain1.wav"
+		"wave"		"physics/metal/metal_solid_strain4.wav"
+		"wave"		"physics/metal/metal_solid_strain5.wav"
+	}
 }
 
 "NPC_Alyx.Wood_Creak1"
@@ -221,16 +221,16 @@
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"VOL_NORM"
-	"pitch"			"90, 110"
+	"pitch"			"100"
 
-	"soundlevel"	"SNDLVL_70dB"
+	"soundlevel"	"SNDLVL_75dB"
 
 	"rndwave"
 	{
-		"wave"	"npc/footsteps/hardboot_generic2.wav"
-		"wave"	"npc/footsteps/hardboot_generic3.wav"
-		"wave"	"npc/footsteps/hardboot_generic5.wav"
-		"wave"	"npc/footsteps/hardboot_generic8.wav"
+		"wave"	"physics/concrete/boulder_impact_hard1.wav"
+		"wave"	"physics/concrete/boulder_impact_hard2.wav"
+		"wave"	"physics/concrete/boulder_impact_hard3.wav"
+		"wave"	"physics/concrete/boulder_impact_hard4.wav"
 	}
 }
 

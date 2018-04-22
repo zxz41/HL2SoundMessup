@@ -10,10 +10,10 @@
 
 	"rndwave"
 	{
-		"wave"		"ambient/machines/slicer1.wav"
-		"wave"		"ambient/machines/slicer2.wav"
-		"wave"		"ambient/machines/slicer3.wav"
-		"wave"		"ambient/machines/slicer4.wav"
+		"wave"		"custom/ambient/machines/eww_slicer1.wav"
+		"wave"		"custom/ambient/machines/eww_slicer2.wav"
+		"wave"		"custom/ambient/machines/eww_slicer3.wav"
+		"wave"		"custom/ambient/machines/eww_slicer4.wav"
 	}
 }
 

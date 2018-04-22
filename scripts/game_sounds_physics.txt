@@ -2895,16 +2895,68 @@
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"volume"		"1.0"
-	"pitch"			"90"
-	"wave"			"custom/player/footsteps/fuk.wav"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		//Duplicate sound entries workaround to make some sounds more rare
+		"wave"		"custom/player/footsteps/fattywood1.wav"
+		"wave"		"custom/player/footsteps/fattywood3.wav"
+
+		"wave"		"player/footsteps/wood1.wav"
+		"wave"		"player/footsteps/wood3.wav"
+		"wave"		"custom/player/footsteps/creakwood1.wav"
+		"wave"		"custom/player/footsteps/creakwood3.wav"
+		"wave"		"custom/player/footsteps/strainwood1.wav"
+		"wave"		"custom/player/footsteps/strainwood3.wav"
+
+		"wave"		"player/footsteps/wood1.wav"
+		"wave"		"player/footsteps/wood3.wav"
+		"wave"		"custom/player/footsteps/creakwood1.wav"
+		"wave"		"custom/player/footsteps/creakwood3.wav"
+		"wave"		"custom/player/footsteps/strainwood1.wav"
+		"wave"		"custom/player/footsteps/strainwood3.wav"
+
+		"wave"		"player/footsteps/wood1.wav"
+		"wave"		"player/footsteps/wood3.wav"
+		"wave"		"custom/player/footsteps/creakwood1.wav"
+		"wave"		"custom/player/footsteps/creakwood3.wav"
+		"wave"		"custom/player/footsteps/strainwood1.wav"
+		"wave"		"custom/player/footsteps/strainwood3.wav"
+	}
 }
 
 "Wood.StepRight"
 {
 	"soundlevel"		"SNDLVL_75dB"
 	"volume"		"1.0"
-	"pitch"			"100"
-	"wave"			"custom/player/footsteps/fuk.wav"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		//Duplicate sound entries workaround to make some sounds more rare
+		"wave"		"custom/player/footsteps/fattywood2.wav"
+		"wave"		"custom/player/footsteps/fattywood4.wav"
+
+		"wave"		"player/footsteps/wood2.wav"
+		"wave"		"player/footsteps/wood4.wav"
+		"wave"		"custom/player/footsteps/creakwood2.wav"
+		"wave"		"custom/player/footsteps/creakwood4.wav"
+		"wave"		"custom/player/footsteps/strainwood2.wav"
+		"wave"		"custom/player/footsteps/strainwood4.wav"
+
+		"wave"		"player/footsteps/wood2.wav"
+		"wave"		"player/footsteps/wood4.wav"
+		"wave"		"custom/player/footsteps/creakwood2.wav"
+		"wave"		"custom/player/footsteps/creakwood4.wav"
+		"wave"		"custom/player/footsteps/strainwood2.wav"
+		"wave"		"custom/player/footsteps/strainwood4.wav"
+
+		"wave"		"player/footsteps/wood2.wav"
+		"wave"		"player/footsteps/wood4.wav"
+		"wave"		"custom/player/footsteps/creakwood2.wav"
+		"wave"		"custom/player/footsteps/creakwood4.wav"
+		"wave"		"custom/player/footsteps/strainwood2.wav"
+		"wave"		"custom/player/footsteps/strainwood4.wav"
+	}
 }
 
 "Wood.BulletImpact"

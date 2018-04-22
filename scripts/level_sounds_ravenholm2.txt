@@ -337,9 +337,9 @@
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.75"
-	"pitch"			"100"
+	"pitch"			"130"
 	"soundlevel"	"SNDLVL_90db"
-	"wave"			"npc/fast_zombie/fz_alert_far1.wav"
+	"wave"			"custom/ambient/voices/wednes_scream1.wav"
 }
 
 "Town.d1_town_02_wake1"

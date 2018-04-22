@@ -459,7 +459,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_100dB"
 
-	"wave"	"npc/dog/dog_scared1.wav"
+	"wave"	""
 }
 
 "NPC_dog.Talk_1"
@@ -677,7 +677,7 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_110dB"
 
-	"wave"	"npc/dog/dog_on_dropship.wav"
+	"wave"	"custom/ambient/voices/fallingscream1.wav"
 }
 
 // thrown car hits ground

@@ -197,15 +197,15 @@
 "Zombie.Attack"
 {
 	"channel"		"CHAN_VOICE"
-	"volume"		"0.600"
+	"volume"		"1.000"
 	"pitch"			"95, 105"
 
 	"soundlevel"	"SNDLVL_NORM"
 
 	"rndwave"
 	{
-		"wave"	"npc/zombie/zo_attack1.wav"
-		"wave"	"npc/zombie/zo_attack2.wav"
+		"wave"	"custom/npc/zombie/zo_attack_kackle.wav"
+	//	"wave"	"npc/zombie/zo_attack2.wav"
 	}
 }
  

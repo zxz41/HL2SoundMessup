@@ -77,15 +77,15 @@
 "NPC_HeadCrab.Die"
 {
 	"channel"		"CHAN_VOICE"
-	"volume"		"VOL_NORM"
+	"volume"		"1.0000"
 	"pitch"			"PITCH_NORM"
 
-	"soundlevel"	"SNDLVL_IDLE"
+	"soundlevel"	"SNDLVL_90dB"
 
 	"rndwave"
 	{
-		"wave"	"npc/headcrab/die1.wav"
-		"wave"	"npc/headcrab/die2.wav"
+		"wave"	"quake/player/gib.wav"
+		"wave"	"custom/ambient/voices/peenus.wav"
 	}
 }
 
@@ -119,17 +119,16 @@
 "NPC_Headcrab.Footstep"
 {
 	"channel"		"CHAN_BODY"
-	"volume"		"0.01"
-	"pitch"			"PITCH_NORM"
+	"volume"		"0.8"
+	"pitch"			"110,120"
 
 	"soundlevel"	"SNDLVL_70dB"
 
 	"rndwave"
 	{
-		"wave"	"npc/headcrab_poison/ph_step1.wav"
-		"wave"	"npc/headcrab_poison/ph_step2.wav"
-		"wave"	"npc/headcrab_poison/ph_step3.wav"
-		"wave"	"npc/headcrab_poison/ph_step4.wav"
+		"wave"	"hl1/player/pl_dirt1.wav"
+		"wave"	"hl1/player/pl_dirt2.wav"
+		"wave"	"hl1/player/pl_dirt3.wav"
 	}
 }
 

@@ -707,7 +707,7 @@
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"		"weapons/smg1/smg1_reload.wav"
+	"wave"		"custom/weapons/smg1/smg1_reload_prune.wav"
 }
 
 "Weapon_Pistol.Empty"
@@ -732,11 +732,12 @@
 "Weapon_Pistol.NPC_Single"
 {
 	"channel"		"CHAN_WEAPON"
-	"volume"		"0.7"
+	"volume"		"0.8"
 	"soundlevel"	"SNDLVL_GUNFIRE"
-	"pitch"			"90,120"
+	"pitch"			"95,105"
 
-	"wave"		"^weapons/pistol/pistol_fire3.wav"
+	//"wave"		"^weapons/pistol/pistol_fire3.wav"
+	"wave"		"^custom/weapons/pistol/pistol_npc_prunehl1.wav"
 }
 
 "Weapon_Pistol.Special1"
@@ -774,7 +775,7 @@
 	"volume"		"0.55"
 	"soundlevel"	"SNDLVL_GUNFIRE"
 
-	"wave"		"weapons/rpg/rocketfire1.wav"
+	"wave"		"custom/weapons/crossbow/fire1.wav" //PLACEHOLDER
 }
 
 "Weapon_RPG.NPC_Single"
@@ -830,8 +831,15 @@
 	"channel"		"CHAN_ITEM"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
-
-	"wave"		"custom/weapons/shotgun/scock1_hd_prunejuice.wav"
+	"rndwave"
+	{
+		"wave"		"custom/weapons/shotgun/scock1_hd_prunejuice.wav"
+		//Hacky way of making scock1_hd_prunejuice play more rarely
+		"wave"		"hl1/weapons/scock1_hd.wav"
+		"wave"		"hl1/weapons/scock1_hd.wav"
+		"wave"		"hl1/weapons/scock1_hd.wav"
+		"wave"		"hl1/weapons/scock1_hd.wav"
+	}
 }
 
 "Weapon_Shotgun.Single"
@@ -839,12 +847,14 @@
 	"channel"		"CHAN_WEAPON"
 	"volume"		"0.86"
 	"soundlevel"	"SNDLVL_GUNFIRE"
-	"pitch"			"98,101"
+	//"pitch"			"98,101"
+	"pitch"			"95,110"
 	"rndwave"
 	{
 	//	"wave"			"weapons/shotgun/shotgun_fire2.wav"
 	//	"wave"			"weapons/shotgun/shotgun_fire6.wav"
-		"wave"			"weapons/shotgun/shotgun_fire7.wav"
+	//	"wave"			"weapons/shotgun/shotgun_fire7.wav"
+		"wave"			"hl1/weapons/sbarrel1.wav"
 	}
 }
 
@@ -926,7 +936,11 @@
 	"volume"		"0.61"
 	"soundlevel"	"SNDLVL_GUNFIRE"
 
-	"wave"		"weapons/ar2/ar2_altfire.wav"
+	"rndwave"
+	{
+		"wave"		"custom/weapons/grenade_launcher1_hitmebb.wav"
+		"wave"		"custom/weapons/grenade_launcher1_ohsnap.wav"
+	}
 }
 
 
@@ -1235,9 +1249,9 @@
 	"channel"		"CHAN_WEAPON"
 	"volume"		"0.61"
 	"soundlevel"		"SNDLVL_NORM"
-	"pitch"			"93,108"
+	"pitch"			"100"
 
-	"wave"			"weapons/crossbow/fire1.wav"
+	"wave"			"custom/weapons/crossbow/fire1.wav"
 }
 
 "Weapon_Crossbow.Reload"
@@ -1262,7 +1276,7 @@
 
 "Weapon_Crossbow.BoltElectrify"
 {
-	"channel"		"CHAN_WEAPON"
+	"channel"		"CHAN_AUTO"
 	"volume"		"0.6"
 	"pitch"			"93,108"
 	"soundlevel"	"SNDLVL_NORM"

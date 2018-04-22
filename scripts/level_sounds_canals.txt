@@ -95,7 +95,7 @@
 
 	"soundlevel"	"SNDLVL_65dB"
 
-	"wave"			"vehicles/airboat/pontoon_fast_water_loop1.wav"
+	"wave"			"custom/ambient/machines/craxon_beat1.wav"
 }
 
 "underground_steamjet"
@@ -1943,12 +1943,12 @@
 "d1_canals_05.heli_pass_quick"
 {
 	"channel"		"CHAN_BODY"
-	"volume"		"0.600000"
+	"volume"		"1.000000"
 	"pitch"			"100"
 
-	"soundlevel"	"SNDLVL_90dB"
+	"soundlevel"	"SNDLVL_120dB"
 
-	"wave"			"ambient/machines/heli_pass_quick1.wav"
+	"wave"			"custom/scientist/c1a0_sci_dis_lolurslow.wav"
 }
 
 "d1_canals_05.shanty_battle"

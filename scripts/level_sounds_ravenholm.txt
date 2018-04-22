@@ -181,7 +181,8 @@
 	"volume"		"0.800000"
 	"pitch"			"100"
 
-	"soundlevel"	"SNDLVL_80dB"
+//	"soundlevel"	"SNDLVL_80dB"
+	"soundlevel"	"SNDLVL_60dB" //shh
 
 	"wave"			"custom/music/hotelmario_credits.wav"
 }
@@ -210,7 +211,7 @@
 
 	"soundlevel"	"SNDLVL_80dB"
 
-	"wave"			"custom/ambient/machines/catapult_throw_hitmebb.wav"
+	"wave"			"custom/ambient/machines/catapult_bowserlaugh1.wav"
 }
 
 "d1_town.CarHit"
@@ -277,12 +278,13 @@
 "d1_town.LargeFireLoop"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.850000"
+	"volume"		"1.000000"
 	"pitch"			"100"
 
 	"soundlevel"	"SNDLVL_80dB"
 
-	"wave"			"ambient/fire/fire_big_loop1.wav"
+//	"wave"			"ambient/fire/fire_big_loop1.wav"
+	"wave"			"custom/ambient/JingleBells.wav"
 }
 
 "d1_town.MediumFireLoop"

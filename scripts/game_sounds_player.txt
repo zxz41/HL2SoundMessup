@@ -78,7 +78,16 @@
 	"volume"	"0.4"
 	"soundlevel"  "SNDLVL_75dB"
 
-	"wave"	"common/wpn_denyselect.wav"
+	"rndwave"
+	{
+		"wave"	"common/wpn_denyselect.wav"
+		"wave"	"common/wpn_denyselect.wav"
+		"wave"	"common/wpn_denyselect.wav"
+		"wave"	"common/wpn_denyselect.wav"
+		"wave"	"common/wpn_denyselect.wav"
+		"wave"	"custom/common/wpn_denyselect_peenus.wav"
+		"wave"	"custom/common/wpn_denyselect_duke.wav"
+	}
 }
 
 "HL2Player.BurnPain"
